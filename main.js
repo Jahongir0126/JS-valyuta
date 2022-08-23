@@ -2,10 +2,6 @@
 var myForm = document.querySelector(".myForm");
 
 var summa = document.querySelector(".summa");
-
-// var RUB = document.querySelector(".RUB");
-
-// var EUR = document.querySelector(".EUR");
 var myButtonEl = document.querySelector(".myButton");
 var resultUSD = document.querySelector(".spanUSD");
 var resultRUB = document.querySelector(".spanRUB");
@@ -21,12 +17,6 @@ myForm.addEventListener('submit' , (event) => {
         inputUsd:summa.value / usd,
         inputRub:summa.value/rub,
         inputEur:summa.value/eur,
-
-        // resultUSD == 1000 * inputUsd,
-        // resultRUB == 1000 * inputRub,
-        // resultEUR == 1000 * inputEur,
-        // var resultat =inputUsd*usd,
-        
     }
     var resultat=summa.value / usd;
     var resultat1=summa.value / rub;
